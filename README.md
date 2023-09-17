@@ -1,6 +1,7 @@
 # 复现Bert下游任务MNLI
 
 描述：Bert模型是NLP领域的里程碑模型，其在自然语言处理领域应用广泛，预训练的Bert模型经过下游任务微调之后，在不通数据集上都表现出相较其它同等模型的优势。在此次考核中，要求使用Bert-base模型，在MNLI数据集上完成下游任务处理，得到与公开数据匹配的精度。
+
 注：由于模型weight比较大，如有需要可以从以下链接下载：
 
 freeze：https://drive.google.com/file/d/1cKGNP6hSPW3oALA_-wv_ofLfInSEqeAf/view?usp=drive_link
