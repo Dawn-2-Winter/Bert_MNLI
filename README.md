@@ -2,6 +2,7 @@
 
 描述：Bert模型是NLP领域的里程碑模型，其在自然语言处理领域应用广泛，预训练的Bert模型经过下游任务微调之后，在不通数据集上都表现出相较其它同等模型的优势。在此次考核中，要求使用Bert-base模型，在MNLI数据集上完成下游任务处理，得到与公开数据匹配的精度。
 注：由于模型weight比较大，如有需要可以从以下链接下载：
+
 freeze：https://drive.google.com/file/d/1cKGNP6hSPW3oALA_-wv_ofLfInSEqeAf/view?usp=drive_link
 
 LoRA：https://drive.google.com/file/d/1IQgci10ALckv7MBtER4I0zwn4EcyTwzm/view?usp=drive_link
@@ -63,6 +64,8 @@ MNLI(The Multi-Genre Natural Language Inference Corpus, 多类型自然语言推
 
 ![4](./img/4.png "4")
 
+参数设置如下：
+
 | Dataset              | Length  |
 | :------------------: | :-----: | 
 | batch_size           | 200     |
@@ -80,6 +83,8 @@ MNLI(The Multi-Genre Natural Language Inference Corpus, 多类型自然语言推
 ![5](./img/5.png "5")
 
 论文：https://arxiv.org/pdf/2106.09685.pdf
+
+参数设置如下：
 
 | Dataset              | Length    |
 | :------------------: | :-------: | 
@@ -102,6 +107,8 @@ MNLI(The Multi-Genre Natural Language Inference Corpus, 多类型自然语言推
 ![6](./img/6.png "6")
 
 论文：https://aclanthology.org/2021.acl-long.353.pdf
+
+参数设置如下：
 
 | Dataset              | Length    |
 | :------------------: | :-------: | 
